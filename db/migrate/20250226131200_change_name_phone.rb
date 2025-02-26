@@ -1,4 +1,4 @@
-class FixColumnName2 < ActiveRecord::Migration[7.1]
+class ChangeNamePhone < ActiveRecord::Migration[7.1]
   def change
     rename_column :restaurants, :phone, :phone_number
   end
