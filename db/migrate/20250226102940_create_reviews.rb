@@ -5,8 +5,5 @@ class CreateReviews < ActiveRecord::Migration[7.1]
       t.text :content
       t.timestamps
     end
-    add_foreign_key :review, :restaurant
-
-
   end
 end
